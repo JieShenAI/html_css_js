@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>文本域</title>
+</head>
+
+<body>
+    <form name="form1" method="post" action="index.htm">用户名：<input name="name" type="text" size="20" id="name" /><br />
+        密码：<input name="password" type="password" id="password" size="10" />
+        <br />
+        <input type="radio" name="gender" value="male" checked="checked">男
+        <input type="radio" name="gender" value="famale">女
+        <br>
+
+        爱好：
+        <input name="checkbox" type="checkbox" value="checkbox" checked="checked" />游泳
+        <input name="checkbox1" type="checkbox" value="checkbox" />打高尔夫球
+        <input name="checkbox2" type="checkbox" value="checkbox" />冲浪
+        <input name="checkbox3" type="checkbox" value="checkbox" />看小说
+        <br>
+        <p align="center">
+            <input type="image" src="img/3.jpeg" name="cats">
+        </p>
+
+        <input type="file" name="up" id="pngup">
+        <br>
+        所在地区:
+        <select name="select">
+            <option value="bj">北京</option>
+            <option value="hb" selected="selected">湖北</option>
+        </select>
+
+        <br>
+        市区:
+        <select name="city" multiple="multiple" size="1">
+            <option value="1">city1</option>
+            <option value="2">city2</option>
+            <option value="3">city3</option>
+            <option value="4">city4</option>
+        </select>
+        <br>
+        <textarea name="issue" id="" cols="30" rows="10"></textarea>
+
+        <br>
+        <input type="submit" name="Submit" value="提交" />
+        <input type="reset" name="Submit2" value="重置" />
+        <input type="submit" name="submit" value="关闭窗口" onclick="window.close()" />
+    </form>
+</body>
+
+</html>
